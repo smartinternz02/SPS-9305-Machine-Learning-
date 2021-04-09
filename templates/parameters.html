@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>House price predictor</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">House Price Predictor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/parameters">Parameters</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/predict">Predict Price</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- blog -->
+    <div class="container my-2" action='/parameters'>
+        <!-- main -->
+
+        <div class="row featurette mx-2">
+            <div class="col-md-7 my-4">
+                <h2 class="featurette-heading">Location<span class="text-muted"></span></h2>
+                <p class="lead">Location is known to be a main determinant in people's efforts to estimate the value of a house. However, the type of location, and subsequently how the value of that location is estimated, has not been investigated to the same degree.
+                    In hedonic price modelling, a well-used method of estimating housing as a composite good, locational proxies such as postcodes or census tracts are often used to control for location. This notion of location is what geographers refer
+                    to as absolute location, a fixed position in space, as opposed to relative location, a position in space relative to other positions</div>
+            <div class="col-md-5 my-5">
+                <img src="/static/back1.jfif" class="d-block w-100" width="250" ,height="250" ,alt="...">
+            </div>
+        </div>
+
+
+        <div class="row featurette mx-2">
+            <div class="col-md-7 order-md-2 my-3">
+                <h2 class="featurette-heading">Area<span class="text-muted"></span></h2>
+                <p class="lead">
+                    The value of a home is roughly estimated in price per square foot — the sales price divided by the square footage of the home. Depending on where you’re buying, $100 per square foot may be a bargain or far more than it’s common to pay. In addition to
+                    square footage, a home’s usable space matters when determining its value. Garages, attics, and unfinished basements are generally not counted in usable square footage.Livable space is what is most important to buyers and appraisers.
+                    Bedrooms and bathrooms are most highly valued, so the more beds and baths your home offers, the more your home is generally worth. However these trends are very locally specific.
+            </div>
+            <div class="col-md-5 order-md-1 my-5">
+                <img src="/static/area.jfif" height="300" ,width="300" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="row featurette mx-2">
+            <div class="col-md-7 my-4">
+                <h2 class="featurette-heading">Condition<span class="text-muted"></span></h2>
+                <p class="lead">Typically, homes that are newer appraise at a higher value. The fact that critical parts of the house, like plumbing, electrical, the roof, and appliances are newer and therefore less likely to break down, can generate savings for a buyer.
+                    For example, if a roof has a 20-year warranty, that’s money an owner will save over the next two decades, compared to an older home that may need a roof replaced in just a few years. </div>
+            <div class="col-md-5 my-5">
+                <img src="/static/back4.jfif" class="d-block w-100" width="250" ,height="250" ,alt="...">
+            </div>
+        </div>
+
+
+        <div class="row featurette mx-2">
+            <div class="col-md-7 order-md-2 my-3">
+                <h2 class="featurette-heading">Real Estates Comps<span class="text-muted"></span></h2>
+                <p class="lead">
+                    If you want to know the value of a property, check the sale prices of comparable properties (real estate comps) that were sold recently in the area. The properties could be comparable in terms of: Type of home (single-family homes, multi-family homes
+                    or condos) Year built Square footage Number of bathrooms and bedrooms Location (near a mall, beach or busy street for example)
+            </div>
+            <div class="col-md-5 order-md-1 my-5">
+                <img src="/static/back1.jfif" height="200" ,width="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="row featurette mx-2">
+            <div class="col-md-7 my-4">
+                <h2 class="featurette-heading">Intrest Rate<span class="text-muted"></span></h2>
+                <p class="lead">The level of interest rates is one of the major factors that affect property value. If the Reserve Bank decides to increase the interest on loans, lenders will follow suit. This will mean that borrowers will have to pay a higher monthly
+                    mortgage repayment. Expensive mortgages mean that properties will be sold at a higher price. On the other hand, a reduction in interest rates means that property will be more affordable.</div>
+            <div class="col-md-5 my-5">
+                <img src="/static/intrest2.jfif" class="d-block w-100" ,alt="...">
+            </div>
+        </div>
+
+
+        <div class="row featurette mx-2">
+            <div class="col-md-7 order-md-2 my-3">
+                <h2 class="featurette-heading">Economic Conditions<span class="text-muted"></span></h2>
+                <p class="lead">
+                    The economic conditions of an area will have an effect on people’s ability to sell or buy an investment property. When the economy is booming, there will be more jobs and people will earn more money. As the buying power of people increases, they are more
+                    likely to invest in a new home or second home. The increase in demand will eventually result in higher property prices. On the other hand, if unemployment increases and wages drop, less people will be able to afford a home. Subsequently,
+                    the prices of property will also drop. It is therefore very important to keep up with the prevailing conditions of an area before setting the price for a property.
+            </div>
+            <div class="col-md-5 order-md-1 my-5">
+                <img src="/static/economy.jfif" width="200" ,height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
