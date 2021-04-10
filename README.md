@@ -7,7 +7,8 @@ selected by AUTO AI was Random-Forest Regressor,here is a small glimpse of the p
 
 Starting of with the home page which is designed using bootstrap classes,here we in this template the general overview of the project is mentioned,along with that the parameters which are required for predicting the price of the house are also mentioned here,here's a glimpse of it
 
-![.](images/1.PNG)
+<img src = ![.](images/1.PNG) style = "align-items:center;width:40%;height:40%;"></img>
+
 
 Now here's a glimpse of the parameters page,which is giving the information about the parameters which are used for predicting the model,one can read the matter by clicking on param's option on the navigation,here is a small glimpse of it
 
