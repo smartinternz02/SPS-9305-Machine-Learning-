@@ -44,5 +44,13 @@ Meet.V,L.Sai Nikhil gave their contributions in creating the Flask server and th
 
 Vishwam,Meet gave their contributions in formatting the document and also making the video presentation of the project.
 
+### Technologies Used
+
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" title="python"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="javascript"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" title="html5"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" title="css3"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" title="git"></code>
+
 Had a Great time building this model using IBM CLoud Services and AUTO AI ~ from the teammates of DataCrew❤
 
