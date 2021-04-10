@@ -34,8 +34,10 @@ Once the form is filled,hit the predict button and it will take some time as the
 ## Contributions
 
 L.Sai Nikhil,Vishwam gave their contributions in making the UI of the project
+
 Meet.V,L.Sai Nikhil gave their contributions in creating the Flask server and the Machine Learning Model on the IBM cloud
+
 Vishwam,Meet gave their contributions in formatting the document and also making the video presentation of the project.
 
- Had a Great time building this model using IBM CLoud Services and AUTO AI ~ from the teammates of DataCrew❤
+Had a Great time building this model using IBM CLoud Services and AUTO AI ~ from the teammates of DataCrew❤
 
