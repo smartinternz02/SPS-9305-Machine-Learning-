@@ -8,6 +8,8 @@ selected by AUTO AI was Random-Forest Regressor,here is a small glimpse of the p
 
 https://drive.google.com/file/d/12N1kmGOp5NbMSNzKWBLUaKyhme1DAuAO/view?usp=sharing
 
+As the video is long enough,if its not displaying in the drive frame,please do download the video and have a check,regards, Team DataCrew❤
+
 ## General Overview of the Project 
 
 Starting of with the home page which is designed using bootstrap classes,here we in this template the general overview of the project is mentioned,along with that the parameters which are required for predicting the price of the house are also mentioned here,here's a glimpse of it
