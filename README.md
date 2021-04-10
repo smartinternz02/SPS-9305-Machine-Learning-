@@ -1,5 +1,7 @@
 # SPS-9305-Machine-Learning-
 
+## Hyderabad House Price Predictor
+
 ML model which predicts the price of a house based on features like total Sq. ft area,total number of bedrooms,balconies etc.
 The front-end of this model is made by boot-strap and Flask,where as the backend is a Machine learning model which is trained on the housing-price dataset on IBM Watson using the AUTO AI and the algorithm 
 selected by AUTO AI was Random-Forest Regressor,here is a small glimpse of the project,
